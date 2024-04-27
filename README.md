@@ -33,3 +33,10 @@ CSS :
 }
 ```
 
+# Demo
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rayiumir/Filterable/main/demo/Filterable.gif">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rayiumir/Filterable/main/demo/Filterable.gif">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://raw.githubusercontent.com/Rayiumir/Filterable/main/demo/Filterable.gif">
+</picture>
