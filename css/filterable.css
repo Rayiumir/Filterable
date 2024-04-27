@@ -1,0 +1,11 @@
+@font-face {
+    font-family: FiraCode;
+    src: url('../fonts/FiraCode-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+}
+body{
+    font-family: Fira Code;
+    background-color: #e8e8e8;
+}
