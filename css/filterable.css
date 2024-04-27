@@ -5,10 +5,12 @@
     font-weight: 300;
     font-display: swap;
 }
+
 body{
     font-family: Fira Code;
     background-color: #e8e8e8;
 }
+
 .container{
     position: relative;
     max-width: 1350;
@@ -16,9 +18,11 @@ body{
     padding: 20px;
     margin: 50px;
 }
+
 .filterable{
     text-align: center !important;
 }
+
 button{
     padding: 10px 20px;
     font-size: 18px;
@@ -28,7 +32,36 @@ button{
     cursor: pointer;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
 }
+
 button.active{
     background: #4070f4;
     color: #fff;
+}
+
+.cards{
+    display: flex;
+    margin-top: 30px;
+    gap: 120px;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex-basis: 500px;
+    border-radius: 10px;
+    border: 1px solid #d8d8d8;
+    background-color: #fff;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+}
+
+.card-body{
+    padding: 15px;
+}
+
+.imgs{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+h1.card-title{
+    font-size: 20px;
 }
