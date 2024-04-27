@@ -9,3 +9,26 @@ body{
     font-family: Fira Code;
     background-color: #e8e8e8;
 }
+.container{
+    position: relative;
+    max-width: 1350;
+    width: 100%;
+    padding: 20px;
+    margin: 50px;
+}
+.filterable{
+    text-align: center !important;
+}
+button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+}
+button.active{
+    background: #4070f4;
+    color: #fff;
+}
