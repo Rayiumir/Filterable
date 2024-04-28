@@ -69,3 +69,36 @@ button.active{
 h1.card-title{
     font-size: 20px;
 }
+
+.item {
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.item:hover .overlay {
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+}
+.title-overlay {
+    height: auto;
+    top: auto;
+    opacity: 0;
+}
+.item:hover .title-overlay {
+    opacity: 1;
+    height: auto;
+    padding: 20px 0;
+}

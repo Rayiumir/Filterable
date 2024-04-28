@@ -28,5 +28,5 @@ const filterCards = e => {
     });
 };
 
-//Adding Click Event Listener to Each Fillter Buton
+//Adding Click Event Listener to Each Fillter Button
 filterableButtons.forEach(button => button.addEventListener("click", filterCards));
